@@ -308,31 +308,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>
-    
-emailjs.init("XUrgBjDNip6kxG82V");
-
-document
-  .getElementById("contact-form")
-  .addEventListener("submit", function(e) {
-
-  // e.preventDefault();
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
 
   emailjs.sendForm(
     "service_bc69219",
     "template_klqbcpq",
-    this
-  ).then(function() {
-
-      document.getElementById("result").innerHTML =
-      "Message sent successfully!";
-
-  }, function(error) {
-
-      document.getElementById("result").innerHTML =
-      "Failed to send message.";
-console.log(error)
+    this,
+    "XUrgBjDNip6kxG82V"
+  )
+  .then(function() {
+    alert("Message sent!");
+  })
+  .catch(function(error) {
+    console.log("FAILED", error);
   });
-
 });
   </script>
 </body>
