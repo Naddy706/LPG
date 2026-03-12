@@ -198,6 +198,16 @@ border:none;
 color:white;
 }
 
+
+.faq{
+  background-color: #1e293b !important;
+  color:white !important;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* turns default Bootstrap caret white */
+}
+
 }
 
 
@@ -380,6 +390,16 @@ color:#cbd5f5;
   padding:14px 20px;
 }
 
+
+.faq{
+  background-color: #1e293b !important;
+  color:white !important;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* turns default Bootstrap caret white */
+}
+
 }
 
 
@@ -429,6 +449,7 @@ background: #1e293b;
   font-size:13px;
 }
 
+
 }
 
 /* Small Mobile Devices (Android etc) */
@@ -454,6 +475,16 @@ background: #1e293b;
 
 .impName{
   font-size:12px;
+}
+
+
+.faq{
+  background-color: #1e293b !important;
+  color:white !important;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* turns default Bootstrap caret white */
 }
 
 }
@@ -623,6 +654,16 @@ grid-template-columns:1fr 1fr;
 gap:40px;
 }
 
+
+.faq{
+  background-color: #1e293b !important;
+  color:white !important;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* turns default Bootstrap caret white */
+}
+
 }
 
 @media(max-width:600px){
@@ -639,6 +680,16 @@ text-align:center;
 
 .footer-bottom-links a{
 margin:0 10px;
+}
+
+
+.faq{
+  background-color: #1e293b !important;
+  color:white !important;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* turns default Bootstrap caret white */
 }
 
 }
