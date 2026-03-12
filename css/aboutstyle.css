@@ -183,7 +183,7 @@ background:linear-gradient(
 .values-grid{
 display:grid;
 grid-template-columns:repeat(4,1fr);
-gap:35px;
+gap:25px;
 margin-top:40px;
 }
 
