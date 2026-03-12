@@ -224,7 +224,7 @@ color:white;
 /* HERO SECTION */
 .hero-premium{
   height:100vh;
-  background:url("../images/banner.png") center/cover no-repeat;
+  background:url("../images/industrial-lpg-supply-banner.png") center/cover no-repeat;
   position:relative;
   display:flex;
   align-items:center;
@@ -1163,3 +1163,13 @@ line-height:1.6;
 margin:0;
 }
 /* contact page :end */
+
+
+.faq{
+  background-color: #1e293b !important;
+  color:white !important;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* turns default Bootstrap caret white */
+}
