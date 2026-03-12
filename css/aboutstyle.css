@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after{
+box-sizing:border-box;
+}
+
+html,body{
+overflow-x:hidden;
+}
+
 body{
 margin:0;
     font-family:'Inter',sans-serif;
@@ -182,7 +192,8 @@ background:linear-gradient(
 
 .values-grid{
 display:grid;
-grid-template-columns:repeat(4,1fr);
+/* grid-template-columns:repeat(4,1fr); */
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:25px;
 margin-top:40px;
 }
@@ -248,12 +259,20 @@ color: white;
 }
 /* timeline container */
 
-.timeline{
+/* .timeline{
 
 max-width:700px;
 margin:auto;
 position:relative;
 
+} */
+
+.timeline{
+max-width:700px;
+margin:auto;
+position:relative;
+padding-left:25px;
+overflow:hidden;
 }
 
 /* vertical line */
@@ -496,8 +515,8 @@ line-height:1.2;
 .values-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:7.5px;
-padding:0 15px;
+gap:15px;
+/* padding:0 15px; */
 }
 
 .value-card{
