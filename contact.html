@@ -315,7 +315,7 @@ document
   .getElementById("contact-form")
   .addEventListener("submit", function(e) {
 
-  e.preventDefault();
+  // e.preventDefault();
 
   emailjs.sendForm(
     "service_bc69219",
@@ -330,7 +330,7 @@ document
 
       document.getElementById("result").innerHTML =
       "Failed to send message.";
-
+console.log(error)
   });
 
 });
