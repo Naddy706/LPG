@@ -1,0 +1,550 @@
+body{
+margin:0;
+    font-family:'Inter',sans-serif;
+background:#0b1420;
+color:#cbd5e1;
+}
+
+/* container */
+.about-hero{
+
+padding:120px 0;
+
+background:linear-gradient(
+90deg,
+#0b1420 0%,
+#15263f 40%,
+#1b2f4d 100%
+);
+
+}
+
+/* container */
+/* 
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+} */
+ .about-hero .container{
+max-width:1200px;
+margin:auto;
+padding-left:20px;
+padding-right:20px;
+}
+
+.values-header{
+text-align:center;
+margin-bottom:60px;
+}
+
+/* OUR VALUES */
+
+.section-label{
+
+font-family:'Oswald',sans-serif;
+
+color:#3b82f6;
+
+font-size:19px;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+margin-bottom:10px;
+
+}
+
+/* WHAT DRIVES US */
+
+.section-title{
+
+font-family:'Oswald',sans-serif;
+
+font-size:56px;
+
+font-weight:700;
+
+letter-spacing:-1px;
+
+color:#e5e7eb;
+
+margin:0;
+
+}
+
+/* about label */
+
+.about-label{
+
+font-size:14px;
+letter-spacing:2px;
+font-weight:600;
+color:#3b82f6;
+
+}
+
+/* title */
+
+.about-title{
+
+font-size:64px;
+color: whitesmoke;
+font-weight:800;
+font-family: 'Oswald', sans-serif;
+
+letter-spacing:-1px;
+
+line-height:1.1;
+
+margin-bottom:20px;
+
+}
+
+.about-title span{
+
+color:#3b82f6;
+
+}
+
+/* paragraph */
+
+.about-text{
+
+
+font-size:14px;
+
+line-height:1.7;
+
+color:#9aa4b2;
+
+max-width:540px;
+
+}
+
+/* mission */
+
+.mission{
+padding:80px 0;
+background:#0b1420;
+
+}
+
+.mission-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.card{
+background:linear-gradient(145deg,#1b2638,#121a27);
+
+border:1px solid rgba(255,255,255,0.05);
+padding:40px;
+border-radius:10px;
+}
+.card h3{
+    color: white;
+}
+.mission-grid p{
+    color: rgb(130, 131, 156);
+    line-height:1.6;
+}
+
+/* icons */
+
+.icon{
+width:45px;
+height:45px;
+background:#0b1420;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:8px;
+color:#3b82f6;
+margin-bottom:20px;
+}
+
+/* values */
+
+.values{
+padding:100px 0;
+text-align:center;
+
+background:linear-gradient(
+90deg,
+#0b1420 0%,
+#15263f 40%,
+#1b2f4d 100%
+);
+}
+
+.values-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:40px;
+}
+
+.value-card{
+background:#111c2a;
+padding:30px;
+border-radius:10px;
+border:1px solid #1f2b3b;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* icon */
+
+.value-card .icon{
+margin-bottom:18px;
+}
+
+/* heading */
+
+.value-card h4{
+margin:10px 0 12px 0;
+font-size:18px;
+color: white;
+}
+
+/* paragraph */
+
+.value-card p{
+margin:0;
+line-height:1.6;
+color:#9aa4b2;
+}
+
+/* timeline */
+
+.timeline-section{
+
+padding:100px 0;
+text-align:center;
+background-color: #0b1420;
+
+}
+
+/* heading */
+
+.timeline-label{
+color: #3b82f6;
+font-size:16px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.timeline-title{
+font-size:48px;
+margin-bottom:70px;
+}
+
+.timeline-section h2{
+color: white;
+}
+/* timeline container */
+
+.timeline{
+
+max-width:700px;
+margin:auto;
+position:relative;
+
+}
+
+/* vertical line */
+
+.timeline::before{
+
+content:"";
+position:absolute;
+
+left:25px;
+top:0;
+bottom:0;
+
+width:2px;
+background:#1f3b6d;
+
+}
+
+/* timeline item */
+
+.timeline-item{
+
+display:flex;
+align-items:flex-start;
+margin-bottom:50px;
+position:relative;
+
+}
+
+/* icon */
+
+.timeline-icon{
+
+width:50px;
+height:50px;
+
+border:2px solid #3b82f6;
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+color: #3b82f6;
+
+margin-right:20px;
+background:#0b1420;
+
+}
+
+/* content */
+
+.timeline-content{
+text-align:left;
+}
+
+.year{
+color:#3b82f6;
+font-weight:700;
+display:block;
+margin-bottom:6px;
+}
+
+.timeline-content h4{
+margin:0 0 8px 0;
+color:white;
+}
+
+.timeline-content p{
+margin:0;
+color:#9aa4b2;
+}
+
+/* team */
+.team-row{
+
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+.team-name{
+    padding: 50px;
+background:linear-gradient(
+90deg,
+#0b1420 0%,
+#15263f 40%,
+#1b2f4d 100%
+);
+}
+.team-section{
+
+padding:100px 0;
+text-align:center;
+
+}
+
+/* small heading */
+
+.team-label{
+
+color: #3b82f6;
+letter-spacing:2px;
+font-size:14px;
+margin-bottom:8px;
+text-align: center;
+/* margin-top: 20px; */
+
+}
+
+
+/* main heading */
+
+.team-title{
+
+font-size:60px;
+font-weight:700;
+margin-bottom:15px;
+text-align: center;
+color: white;
+
+}
+
+/* description */
+
+.team-desc{
+
+max-width:700px;
+margin:auto;
+color:#8fa3bf;
+margin-bottom:60px;
+font-size:18px;
+
+}
+
+/* card */
+
+.team-card{
+
+width:260px;        /* card chhota ho jayega */
+padding:30px 20px;  /* andar spacing kam */
+background:#141f2f;
+
+border-radius:12px;
+border:1px solid #1f2b3b;
+text-align:center;
+
+}
+
+/* icon circle */
+
+.team-icon{
+
+width:80px;
+height:80px;
+
+border-radius:50%;
+
+background:#0b1420;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+margin:auto;
+margin-bottom:25px;
+
+color: #3b82f6;
+font-size:28px;
+
+}
+
+/* name */
+
+.team-card h4{
+font-size:20px;
+margin-bottom:4px;
+color: white;
+}
+
+.team-card p{
+font-size:15px;
+color:#8fa3bf;
+margin:0;
+}
+
+/* position */
+
+.position{
+
+color:#8fa3bf;
+margin:0;
+
+}
+
+/* hover effect */
+
+.team-card:hover{
+
+transform:translateY(-5px);
+border-color:#2f4f7a;
+
+}
+
+/* mobile */
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:45px;
+}
+
+.mission-grid{
+grid-template-columns:1fr;
+}
+
+.values-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.team-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width:768px){
+
+/* headings */
+
+h1,h2{
+font-size:32px;
+line-height:1.2;
+}
+
+
+/* VALUES SECTION */
+
+.values-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+padding:0 15px;
+}
+
+.value-card{
+padding:20px;
+}
+
+
+/* TIMELINE SECTION */
+
+.timeline{
+padding-left:20px;
+}
+
+.timeline::before{
+left:15px;
+}
+
+.timeline-item{
+margin-bottom:40px;
+}
+
+.timeline-icon{
+width:40px;
+height:40px;
+margin-right:15px;
+}
+
+
+/* TEAM SECTION */
+
+
+.team-row{
+flex-direction:column;
+align-items:center;
+gap:20px;
+}
+
+.team-card{
+width:90%;
+padding:30px 20px;
+}
+
+
+/* section spacing */
+
+section{
+padding:60px 20px;
+}
+
+}
