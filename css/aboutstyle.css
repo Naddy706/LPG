@@ -496,7 +496,7 @@ line-height:1.2;
 .values-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:10px;
+gap:7.5px;
 padding:0 15px;
 }
 
