@@ -1,23 +1,16 @@
-// document.getElementById("contact-form").addEventListener("submit", function(e){
-// e.preventDefault();
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
 
-// emailjs.sendForm(
-// 'service_oamchfh',
-// 'template_9ihpk4i',
-// this
-// )
-
-// .then(()=>{
-// alert("Message Sent!");
-// this.reset();
-// })
-// .catch((err)=>{
-// console.log(err);
-// alert("Error sending message");
-// });
-
-// });
-
-
-
-
+  emailjs.sendForm(
+    "service_bc69219",
+    "template_klqbcpq",
+    this,
+    "XUrgBjDNip6kxG82V"
+  )
+  .then(function() {
+    alert("Message sent!");
+  })
+  .catch(function(error) {
+    console.log("FAILED", error);
+  });
+});
