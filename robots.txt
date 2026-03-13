@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naddy706.github.io/LPG/sitemap.xml
