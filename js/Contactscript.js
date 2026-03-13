@@ -9,6 +9,9 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   )
   .then(function() {
     alert("Message sent!");
+    // clear form
+    document.getElementById("contactForm").reset();
+
   })
   .catch(function(error) {
     console.log("FAILED", error);
